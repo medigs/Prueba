@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subida y Descarga de datos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/desysub.css">
+</head>
+<body>
+    
+        <main>
+            <h1>Subir y Descargar Archivos</h1>
+            <bienvenido> Bienvenido: </span></bienvenido>
+            <h2 >Nombre del Usuario:</h2><br>
+            <h2 id="datauser"></h2><br>
+            <h2 >URL del Usuario:</h2><br>
+            <h2 id="urluser"></h2><br>
+           <div class="form- body">
+            <img src="assets/images/subir.png" alt="imagen" class="imagens">
+            <form action="" method="post" enctype="multipart/form-data" id="formsubir">
+                <br> <br>
+                <input type="file" name="archivo" id="subirdoc" style="margin-left: 50%; transform: translateX(-50%);"><br><br><br>
+                <input type="button" value="Subir" id="bsu" style="margin-left: 50%; transform: translateX(-50%);"><br><br><br>
+
+            </form>
+        </div>
+        <div class="form- body1">
+            <form action="" method="post" enctype="multipart/form-data" id="formdescargar">
+                <img src="assets/images/bajar.png" alt="imagen" class="imagend">
+                <br> <br>
+                <input type="button" value="Descargar" id="bdescargararchivo"style="margin-left: 50%; transform: translateX(-50%);" >
+                
+
+
+            </form>
+
+        </div>
+           
+        </main>
+       
+       <script src="assets/js/archivos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background: linear-gradient(27deg, #f3f7f7 50%, #ebe3db 50%);
+}
+
+.container{
+    width: 75%;
+    max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img.imagens{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+img.imagend{
+    width: 27%;
+    height: 27%;
+    object-fit: cover;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+//centrar h1 y h2
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
